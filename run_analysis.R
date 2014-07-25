@@ -58,6 +58,5 @@ DataSet_Mean_Std = cbind(All[,i], All[, seq(561, ncol(All)-1)])
 
 #(5) Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 TidyDF = aggregate( . ~ Activity + Subject, FUN=mean, data = DataSet_Mean_Std, na.action = na.omit)
-names(TinyDF)
 
-write.table(file = "TidyDataSet.txt", x = TinyDF)
+write.table(file = "TidyDataSet.txt", x = TidyDF)
