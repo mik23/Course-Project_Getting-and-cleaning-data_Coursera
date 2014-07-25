@@ -7,7 +7,7 @@ output: html_document
 
 The following steps describe how the row-data were transformed in tidy-data. 
 
-The initial datasets (train and test sets) have were merged after several additions. It's been added the column that identifies the Subjects; subsequently equally it's been added the column of the activity who have performed the the Subjects. Finally the whole dataset is merged after the naming of feautures. With the aim of extract only the measurements on the mean and standard deviation for each measurement, it were calculated the column indexes thanks to which retrieve the correct feautures required.  
+The initial datasets (train and test sets) were merged after several additions. It's been added the column that identifies the Subjects; subsequently equally it's been added the column of the activity who have performed the the Subjects. Finally the whole dataset is merged after the naming of feautures. With the aim of extract only the measurements on the mean and standard deviation for each measurement, it were calculated the column indexes thanks to which retrieve the correct feautures required.  
 
 The activity identifiers were translated with their label names.  
 
